@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KampIntro", "KampIntro\KampIntro.csproj", "{CFE64217-F428-4F34-8697-E37A016B3A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{FA5B52CE-0650-4F3A-9A70-2629BC24B7A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFE64217-F428-4F34-8697-E37A016B3A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE64217-F428-4F34-8697-E37A016B3A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE64217-F428-4F34-8697-E37A016B3A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE64217-F428-4F34-8697-E37A016B3A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5B52CE-0650-4F3A-9A70-2629BC24B7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5B52CE-0650-4F3A-9A70-2629BC24B7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5B52CE-0650-4F3A-9A70-2629BC24B7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5B52CE-0650-4F3A-9A70-2629BC24B7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82ECAA98-90FC-4DFE-8E3A-75C3C56E6E9C}
+	EndGlobalSection
+EndGlobal
