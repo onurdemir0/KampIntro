@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOP2
+namespace OOP3
 {
-	class Musteri
+	interface ILoggerService
 	{
-		public int MyProperty { get; set; }
+		void Log();
 	}
 }
