@@ -6,6 +6,7 @@ namespace Interfaces
 {
 	interface ICustomerDal
 	{
+		//unimplemented operation
 		void Add();
 		void Delete();
 		void Update();

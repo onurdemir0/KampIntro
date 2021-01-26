@@ -6,32 +6,40 @@ namespace Interfaces
 	{
 		static void Main(string[] args)
 		{
-			PersonManager personManager = new PersonManager();
+			Example();
+			Customer();
+			Server();
+		}
 
-			Customer customer1 = new Customer { Id=1,FirstName="Onur",LastName="Demir",Address="İstanbul"};
-			personManager.Add(customer1);
-
-			Student student1 = new Student { Id =1, FirstName = "Uğur", LastName = "Demir", Departmant="Technology" };
-			personManager.Add(student1);
-
-
-
-			CustomerManager customerManager = new CustomerManager();
-			customerManager.Add(new OracleCustomerDal());
-
-
-
+		private static void Server()
+		{
 			ICustomerDal[] customerDals = new ICustomerDal[]
-			{
+						{
 				new SqlServerCustomerDal(),
 				new OracleCustomerDal(),
 				new MySqlCustomerDal()
-			};
+						};
 			foreach (var item in customerDals)
 			{
 				item.Add();
 			}
+		}
 
+		private static void Customer()
+		{
+			CustomerManager customerManager = new CustomerManager();
+			customerManager.Add(new OracleCustomerDal());
+		}
+
+		private static void Example()
+		{
+			PersonManager personManager = new PersonManager();
+
+			IPerson customer1 = new Customer { Id = 1, FirstName = "Onur", LastName = "Demir", Address = "İstanbul" };
+			personManager.Add(customer1);
+
+			IPerson student1 = new Student { Id = 1, FirstName = "Uğur", LastName = "Demir", Departmant = "Technology" };
+			personManager.Add(student1);
 		}
 	}
 	interface IPerson 
