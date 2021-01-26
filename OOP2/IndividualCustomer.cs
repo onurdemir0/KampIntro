@@ -8,7 +8,13 @@ namespace OOP2
 	class IndividualCustomer:Customer  //Inheritance - Meaning: IndividualCustomer is a Customer
 	{
 		public string TcNo { get; set; }
-		public string FirstName { get; set; }
+		
+		string _firstName;
+		public string FirstName 
+		{ 
+			get { return "Mr." + _firstName; }
+			set { _firstName = value; } 
+		}
 		public string LastName { get; set; }
 		
 		

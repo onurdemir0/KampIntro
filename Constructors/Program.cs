@@ -6,6 +6,11 @@ namespace Constructors
 	{
 		static void Main(string[] args)
 		{
+			Console.WriteLine("Bişey yaz: ");
+			string name2 = Console.ReadLine();
+
+			
+
 			Customer customer1 = new Customer { Id = 1, FirstName = "Onur", LastName = "Demir", City = "İstanbu" };
 			Customer customer2 = new Customer(2,"Uğur","Demir","İstanbul");
 

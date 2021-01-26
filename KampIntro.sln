@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Mate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{0FA489FB-89F8-4734-ADB3-0B1956B612C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPReferenceTypes", "OOPReferenceTypes\OOPReferenceTypes.csproj", "{2EA89F5F-CA60-4AF3-82E0-B7A1D7267755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPReferenceTypes", "OOPReferenceTypes\OOPReferenceTypes.csproj", "{2EA89F5F-CA60-4AF3-82E0-B7A1D7267755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{C5EB5F54-659D-41EC-A648-0C9C2AED4EC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{C5EB5F54-659D-41EC-A648-0C9C2AED4EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{1D0A26F4-2CE9-4367-8E8E-E1E1BB37F1DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{C5EB5F54-659D-41EC-A648-0C9C2AED4EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5EB5F54-659D-41EC-A648-0C9C2AED4EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5EB5F54-659D-41EC-A648-0C9C2AED4EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0A26F4-2CE9-4367-8E8E-E1E1BB37F1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0A26F4-2CE9-4367-8E8E-E1E1BB37F1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0A26F4-2CE9-4367-8E8E-E1E1BB37F1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0A26F4-2CE9-4367-8E8E-E1E1BB37F1DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

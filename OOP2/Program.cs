@@ -15,6 +15,8 @@ namespace OOP2
 			customer1.LastName = "Demir";
 			customer1.TcNo = "125564";
 
+			Console.WriteLine(customer1.FirstName);
+
 			// Kodlama.io - Coorporate
 			CoorporateCustomer customer2 = new CoorporateCustomer();
 			customer2.Id = 2;
