@@ -71,4 +71,12 @@ namespace Interfaces
 			Console.WriteLine(person.FirstName);
 		}
 	}
+	class FilmList<T>
+	{
+		T[] items;
+		public FilmList()
+		{
+			items = new T[0];
+		}
+	}
 }
